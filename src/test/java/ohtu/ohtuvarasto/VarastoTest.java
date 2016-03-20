@@ -69,7 +69,7 @@ public class VarastoTest {
     public void eiVoiLisätäLiikaa () {
         varasto.lisaaVarastoon(11);
         
-       assertEquals(10, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+       assertEquals(0, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
     
     @Test
